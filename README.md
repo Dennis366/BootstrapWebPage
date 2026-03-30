@@ -62,5 +62,5 @@ script.js
    - Double-click index.html, or
    - Right-click → Open with your browser
 
----
+
 
