@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Lapland Adventures</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+
+    <a class="navbar-brand d-flex align-items-center" href="#">
+      <img src="https://picsum.photos/id/1011/40/40" class="me-2">
+      Lapland Adventures
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navMenu">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">
+            More Info
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="more.html">Activities</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel" data-bs-interval="7000">
+
+  <div class="carousel-inner">
+
+    <div class="carousel-item active">
+      <img src="images/Santa_claussy.jpeg" class="d-block w-100" alt="Santa Claus Village">
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/Abisko.jpeg" class="d-block w-100" alt="Abisko National Park">
+    </div>
+
+    <div class="carousel-item">
+      <img src="images/church.jpeg" class="d-block w-100" alt="Lapland Church">
+    </div>
+
+  </div>
+
+  
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon custom-arrow"></span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon custom-arrow"></span>
+  </button>
+
+</div>
+
+
+<div class="container mt-4">
+
+  <h2 class="text-center mb-4">Explore Lapland</h2>
+
+  <div class="row">
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/northern_lights.jpeg" class="card-img-top" alt="Northern Lights">
+        <div class="card-body">
+          <h5 class="card-title">Northern Lights</h5>
+          <p>Witness the magical aurora borealis in the Arctic sky.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/dog_sledding.jpeg" class="card-img-top" alt="Dog sledding">
+        <div class="card-body">
+          <h5 class="card-title">Dog Sledding</h5>
+          <p>Ride through snowy forests with a team of huskies.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card">
+        <img src="images/ice_hotel.jpeg" class="card-img-top" alt="Ice hotel">
+        <div class="card-body">
+          <h5 class="card-title">Ice Hotel</h5>
+          <p>Stay in a unique hotel built entirely from ice.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  
+<table class="table mt-4">
+  <thead>
+    <tr>
+      <th>Activity</th>
+      <th>Duration</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Dog Sledding</td>
+      <td>2 hours</td>
+    </tr>
+    <tr>
+      <td>Northern Lights Tour</td>
+      <td>3 hours</td>
+    </tr>
+    <tr>
+      <td>Ice Hotel Visit</td>
+      <td>1.5 hours</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
