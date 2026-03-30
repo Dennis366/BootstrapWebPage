@@ -4,7 +4,7 @@
 Lapland Adventures is a responsive multi-page website built using **Bootstrap 5.3**.  
 The project showcases a fictional tourism company offering winter experiences in Lapland, such as Northern Lights tours, dog sledding, and visits to the Ice Hotel.
 
----
+
 
 ## 🚀 Features
 - Responsive navigation bar with dropdown menu    
