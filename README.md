@@ -1,14 +1,13 @@
 # Lapland Adventures – Bootstrap Website
 
-## 📌 Overview
+##  Overview
 Lapland Adventures is a responsive multi-page website built using **Bootstrap 5.3**.  
 The project showcases a fictional tourism company offering winter experiences in Lapland, such as Northern Lights tours, dog sledding, and visits to the Ice Hotel.
 
 ---
 
 ## 🚀 Features
-- Responsive navigation bar with dropdown menu  
-- Carousel with adjustable speed  
+- Responsive navigation bar with dropdown menu    
 - Cards and collapsible sections for activities  
 - Table displaying activity durations  
 - Contact form with JavaScript interaction  
@@ -17,7 +16,7 @@ The project showcases a fictional tourism company offering winter experiences in
   - `more.html` – Activities page  
   - `about.html` – About & Contact page  
 - Custom styling with CSS  
-- Background images and improved visual design  
+- Background images and visual design  
 
 ---
 
@@ -51,10 +50,17 @@ script.js
 
 ---
 
-## ▶️ How to Run the Project
+##  How to Run the Project
 1. Download or clone the repository  
-2. Make sure all files stay in the same folder structure  
-3. Open `index.html` in your web browser  
+2. Make sure the file structure is correct:
+   - All HTML files (index.html, more.html, about.html) are in the root folder
+   - All images are inside the /images folder
+   - style.css and script.js are in the root folder  
+
+
+    3. Open the project:
+   - Double-click index.html, or
+   - Right-click → Open with your browser
 
 ---
 
